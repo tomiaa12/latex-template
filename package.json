@@ -1,0 +1,40 @@
+{
+  "name": "@tomiaa/latex-template",
+  "version": "0.0.1",
+  "description": "Latex 公式录入模板，数学公式、化学公式、物理公式...",
+  "main": "index.js",
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog.ts"
+  },
+  "keywords": [
+    "tomiaa",
+    "Latex",
+    "富文本公式编辑",
+    "公式编辑模板",
+    "mathjax",
+    "tex"
+  ],
+  "files": [
+    "es",
+    "lib"
+  ],
+  "author": "tomiaa",
+  "license": "MIT",
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.2.2",
+    "sass": "^1.58.1",
+    "vite": "^4.1.1",
+    "vite-plugin-dts": "^1.7.2",
+    "vite-plugin-libcss": "^1.0.5",
+    "vue-tsc": "^1.0.24"
+  },
+  "bugs": {
+    "url": "https://github.com/tomiaa12/latex-template/issues"
+  },
+  "homepage": "https://github.com/tomiaa12/latex-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomiaa12/latex-template.git"
+  }
+}

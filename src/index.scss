@@ -1,0 +1,67 @@
+.k-latex-template {
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    position: relative;
+    width: 100px;
+    background-color: #f8f9fa;
+    transition: 0.3s;
+    padding: 0.5em 0;
+    margin: 0 0.2em 0.2em 0;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    &:hover {
+      background-color: #e2e6ea;
+    }
+    > button {
+      background-color: transparent;
+      outline: none;
+      border: none;
+    }
+    > p {
+      margin-bottom: 0;
+    }
+    > svg {
+      width: 1em;
+      height: 1em;
+    }
+    .group-container {
+      display: none;
+      position: absolute;
+      top: 100%;
+      z-index: 1000;
+      width: 530px;
+      border-radius: inherit;
+      border: 1px solid #e2e6ea;
+      text-align: left;
+      background-color: #fff;
+      padding: 10px;
+      > p {
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid #e2e6ea;
+      }
+      button {
+        padding: 0.4em 0.2em;
+        background-color: #f8f9fa;
+        border-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin: 0 8px 8px 0;
+        transition: 0.3s;
+        cursor: pointer;
+        &:hover {
+          background-color: #e2e6ea;
+          border-color: #dae0e5;
+          border: 1px solid #dae0e5;
+        }
+      }
+    }
+  }
+
+  img,
+  svg {
+    max-width: 100%;
+  }
+}
