@@ -1,6 +1,7 @@
 {
   "name": "@tomiaa/latex-template",
   "version": "0.0.1",
+  "private": false,
   "description": "Latex 公式录入模板，数学公式、化学公式、物理公式...",
   "main": "index.js",
   "scripts": {
