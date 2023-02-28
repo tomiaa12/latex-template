@@ -1,9 +1,20 @@
 {
   "name": "@tomiaa/latex-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "Latex 公式录入模板，数学公式、化学公式、物理公式...",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./es/index.js",
+      "require": "./lib/index.js"
+    },
+    "./src": {
+      "import": "./src/index.ts"
+    }
+  },
   "scripts": {
     "build": "vue-tsc --noEmit && vite build",
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n ./changelog.ts"
